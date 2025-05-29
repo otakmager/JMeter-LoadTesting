@@ -1,0 +1,8 @@
+# Ignore diffs and exclude CSV files from GitHub language stats
+*.csv linguist-detectable=false
+
+# Ignore diffs and exclude Markdown files (like README) from GitHub language stats
+*.md linguist-detectable=false
+
+# Ignore diffs and exclude auto-generated HTML reports from GitHub language stats
+html-report/** linguist-detectable=false
